@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Black Oak Property Care — Free Estimates</title>
+<meta name="description" content="Get in touch with Black Oak Property Care for a free estimate. Serving Southern Idaho — Twin Falls, Jerome, Kimberly, Filer, Buhl, Boise, and Pocatello.">
+<link rel="icon" type="image/png" href="assets/images/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="site-brand" aria-label="Black Oak Property Care — Home">
+      <img src="assets/images/logo-acorn-white.png" alt="" class="brand-mark">
+      <span class="site-name">Black Oak Property Care</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="services.html">Services</a>
+      <a href="photos.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html" class="is-active">Contact</a>
+      <a href="contact.html" class="nav-cta">Free Estimate</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero hero--sub">
+  <div class="wrap hero-inner">
+    <p class="hero-eyebrow">Get In Touch</p>
+    <h1 class="hero-title">Request Your Free Estimate</h1>
+    <p class="hero-lede">Tell us about the project — we'll get back to you within a business day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-grid reveal">
+
+      <!-- ============================================================
+           CONTACT INFO — edit phone, email, hours, service area
+           ============================================================ -->
+      <div>
+        <dl class="contact-info">
+          <dt>Phone</dt>
+          <dd><!-- EDIT -->(555) 123-4567</dd>
+
+          <dt>Email</dt>
+          <dd><!-- EDIT -->hello@blackoakpropertycare.com</dd>
+
+          <dt>Service Area</dt>
+          <dd><!-- EDIT -->Southern Idaho — Boise to Pocatello</dd>
+
+          <dt>Hours</dt>
+          <dd><!-- EDIT -->Mon–Sat, 7am–6pm</dd>
+        </dl>
+      </div>
+
+      <!-- ============================================================
+           CONTACT FORM — Formspree-compatible.
+           SETUP: sign up free at https://formspree.io, create a form,
+           and replace the "action" URL below with the endpoint they
+           give you (formatted like https://formspree.io/f/xxxxxxxx).
+           Submissions will then land directly in your Gmail inbox
+           once you confirm the form in Formspree's dashboard.
+           GitHub Pages serves static files only, so this external
+           endpoint is what actually delivers the message — there is
+           no server of our own involved.
+           ============================================================ -->
+      <div class="contact-form-panel">
+        <!-- Replace this URL with your Formspree endpoint -->
+        <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-field">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="Remodeling">Remodeling</option>
+                <option value="Junk Removal">Junk Removal</option>
+                <option value="Rental Turnover">Rental Turnover</option>
+                <option value="Property Care">Property Care</option>
+                <option value="Not Sure">Not Sure / Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="address">Property Address</label>
+            <input type="text" id="address" name="address" placeholder="Street, City">
+          </div>
+
+          <div class="form-field">
+            <label for="message">Tell Us About the Project</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <div class="form-field">
+            <label for="photos">Upload Photos (optional)</label>
+            <input type="file" id="photos" name="photos" accept="image/*" multiple>
+            <p class="form-note">A few photos of the space or the issue help us give a more accurate estimate.</p>
+          </div>
+
+          <button type="submit" class="btn btn-block">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <img src="assets/images/logo-acorn-white.png" alt="">
+          <span>Black Oak Property Care</span>
+        </div>
+        <p>Serving Southern Idaho<br>Boise to Pocatello</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-heading">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="photos.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-heading">Get In Touch</p>
+        <address>
+          <p>(555) 123-4567</p>
+          <p>hello@blackoakpropertycare.com</p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Black Oak Property Care &copy; <span id="year"></span>. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
